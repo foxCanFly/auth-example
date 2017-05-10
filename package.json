@@ -1,0 +1,26 @@
+{
+  "name": "auth-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-foxcanfly:foxCanFly/auth-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-generic-session": "^1.11.5",
+    "koa-generic-session-mongo": "^0.3.1",
+    "koa-passport": "^3.0.0",
+    "koa-router": "^7.1.1",
+    "mongoose": "^4.9.8",
+    "passport-local": "^1.0.0",
+    "winston": "^2.3.1"
+  }
+}
